@@ -1,4 +1,4 @@
-![MSA BANNER](banner.png)
+![MSA BANNER](Banner_MSA.jpeg)
 
 
 # Microsoft Student Ambassadors — FAST-NUCES Peshawar
