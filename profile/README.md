@@ -90,6 +90,25 @@ Our chapter is organized into specialized teams to drive technical excellence, o
 
 ---
 
+## 📚 Chapter Governance & Documentation Suite
+
+We maintain an exhaustive, production-grade documentation suite governing our organizational bylaws, community standards, engineering lifecycles, and event playbooks. All files are openly accessible in our central [`.github`](https://github.com/msafastpwr/.github) repository:
+
+| Document | Description |
+| :--- | :--- |
+| 🏛️ **[Governance & Constitution](https://github.com/msafastpwr/.github/blob/main/GOVERNANCE.md)** | Chapter constitution, faculty advisory mandate, executive structure, and voting bylaws. |
+| 🧭 **[Onboarding Handbook](https://github.com/msafastpwr/.github/blob/main/ONBOARDING.md)** | 30-day onboarding roadmap for newly inducted core members, ambassadors, and leads. |
+| 🎨 **[Brand Guidelines](https://github.com/msafastpwr/.github/blob/main/BRAND_GUIDELINES.md)** | Official Microsoft color palette, Segoe UI / Inter typography, and social asset dimensions. |
+| 🎪 **[Event Management SOP](https://github.com/msafastpwr/.github/blob/main/EVENT_MANAGEMENT_SOP.md)** | 5-phase operational lifecycle for workshops, FAST campus lab approvals, and day-of execution. |
+| 🎙️ **[Workshop Speaker Guide](https://github.com/msafastpwr/.github/blob/main/WORKSHOP_SPEAKER_GUIDE.md)** | 30/70 hands-on learning principle, presentation slide rules, and lab repository architectures. |
+| 💻 **[Project Lifecycle](https://github.com/msafastpwr/.github/blob/main/PROJECT_LIFECYCLE.md)** | 7-stage engineering lifecycle, branch protection, Dual-Lead review, and deployment standards. |
+| 📡 **[Communication Policy](https://github.com/msafastpwr/.github/blob/main/COMMUNICATION_POLICY.md)** | Channel matrix, press representation rules, and standardized university/sponsor email templates. |
+| 🌸 **[Her Tech Wing Charter](https://github.com/msafastpwr/.github/blob/main/HER_TECH_WING_CHARTER.md)** | Women in Tech inclusion framework, coding circles, and safe-space anti-harassment protections. |
+| 🗺️ **[Annual Roadmap & OKRs](https://github.com/msafastpwr/.github/blob/main/ROADMAP.md)** | Strategic quarterly milestones and objectives spanning Fall 2026 through Summer 2027. |
+| 👥 **[Community Roster](https://github.com/msafastpwr/.github/blob/main/COMMUNITY_ROSTER.md)** | Verified directory of 2026–2027 Executive Council, Leads, and Core Body members. |
+
+---
+
 ## 💻 Open Source Repositories & Chapter Projects
 
 - **[`msafastpwr.github.io`](https://github.com/msafastpwr/msafastpwr.github.io):** The official web portal of the chapter, engineered with modular, lightweight vanilla web technologies and responsive UI.
