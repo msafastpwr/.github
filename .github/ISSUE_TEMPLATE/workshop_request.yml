@@ -1,0 +1,44 @@
+name: 🎓 Workshop or Event Topic Request
+description: Request or propose a technical workshop, boot camp, or study jam topic
+title: "[WORKSHOP REQUEST]: "
+labels: ["workshop", "community-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Want MSA FAST Peshawar to host a workshop or study jam on a specific technical topic? Let us know what you want to learn!
+  - type: input
+    id: topic
+    attributes:
+      label: Workshop Topic or Technology
+      description: What specific framework, language, or concept would you like covered?
+      placeholder: "e.g., Azure OpenAI Service & Semantic Kernel, Docker for Beginners, etc."
+    validations:
+      required: true
+  - type: dropdown
+    id: target_audience
+    attributes:
+      label: Target Experience Level
+      description: Who is this workshop intended for?
+      options:
+        - Beginner (Freshmen / First-time learners)
+        - Intermediate (Students with programming fundamentals)
+        - Advanced (Specialized tech, production systems)
+        - Open to All
+    validations:
+      required: true
+  - type: textarea
+    id: learning_outcomes
+    attributes:
+      label: Key Learning Objectives
+      description: What specific skills or practical takeaways should attendees build or learn by the end of the session?
+      placeholder: "e.g., Deploying a live container to Azure, building an automated CI/CD pipeline, etc."
+    validations:
+      required: true
+  - type: textarea
+    id: speaker_suggestion
+    attributes:
+      label: Speaker or Facilitator Suggestion
+      description: Are you interested in facilitating this session, or do you have a recommended speaker or student lead in mind?
+    validations:
+      required: false

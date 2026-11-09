@@ -1,0 +1,46 @@
+name: 💡 Feature or Enhancement Request
+description: Propose a new feature, improvement, or idea for our chapter tools or repositories
+title: "[FEATURE]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea to make our web portals, automation tools, or repositories better? We would love to hear it!
+  - type: input
+    id: feature_title
+    attributes:
+      label: Summary
+      description: Brief one-line summary of the proposed feature.
+      placeholder: "e.g., Add dark mode toggle to chapter website"
+    validations:
+      required: true
+  - type: textarea
+    id: problem_statement
+    attributes:
+      label: Problem or Motivation
+      description: Is your feature request related to a problem or unmet need? Please describe.
+      placeholder: "I'm always frustrated when..."
+    validations:
+      required: true
+  - type: textarea
+    id: proposed_solution
+    attributes:
+      label: Proposed Solution or Idea
+      description: Describe what you envision and how it should work.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives_considered
+    attributes:
+      label: Alternatives Considered
+      description: Have you considered any other workarounds or alternate solutions?
+    validations:
+      required: false
+  - type: checkboxes
+    id: willing_to_contribute
+    attributes:
+      label: Contribution
+      options:
+        - label: I would be willing to work on this feature and submit a Pull Request!
+          required: false
